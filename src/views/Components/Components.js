@@ -58,7 +58,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>CMEPR</h1>
+                <h1 style = {{marginTop: "100px"}} className={classes.title}>CMEPR</h1>
                 <h2 style = {{fontSize: "45px"}}>[Colectivo de Música Experimental de Puerto Rico]</h2>
                 {/* <h3 className={classes.subtitle}>
                   A Badass Material-UI Kit based on Material Design.
