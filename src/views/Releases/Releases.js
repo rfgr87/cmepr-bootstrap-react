@@ -42,7 +42,7 @@ function Releases(props) {
       paddingTop: 0,
       }}>
           <Header
-        brand="Decolonial Records"
+        brand="CMEPR"
         rightLinks={<HeaderLinks />}
         fixed
         color="black"
