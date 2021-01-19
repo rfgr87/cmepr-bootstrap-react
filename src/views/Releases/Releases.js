@@ -29,7 +29,7 @@ function Releases(props) {
 
     return (
       <div style={{ 
-      backgroundImage: `url(${image1})`,
+      backgroundColor: `white`,
       height: "3500px",
       position: "absolute",
       backgroundPosition: '0px 0px',
