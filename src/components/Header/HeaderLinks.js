@@ -53,11 +53,11 @@ export default function HeaderLinks(props) {
           ]}
         />
       </ListItem>  */}
-      {/* <ListItem className={classes.listItem}>
-      <Link to="/releases" className={classes.navLink}>
-              Releases
+      <ListItem className={classes.listItem}>
+      <Link to="/audio" className={classes.navLink}>
+              Audio
         </Link>
-      </ListItem> */}
+      </ListItem>
       
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
