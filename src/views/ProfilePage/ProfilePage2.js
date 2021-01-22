@@ -131,7 +131,7 @@ export default function ProfilePage2(props) {
               </p>
             </div>
 
-          <div style={{ 
+          {/* <div style={{ 
                           display: "inline-block",
 
             position: "relative",
@@ -162,7 +162,7 @@ export default function ProfilePage2(props) {
             backgroundPosition: 'center',
             marginLeft:  "2%",
             padding: 0}}></div>
-              
+               */}
             
             </div>
             
