@@ -30,7 +30,7 @@ ReactDOM.render(
       <Route path="/nosotros" component={Manifesto} />
       <Route path='/pedrofrancofraticelli' component = {ProfilePage6}/>
       <Route path='/diegovillasenordecortina' component={ProfilePage3}/>
-      <Route path='/renzofilinich' component={ProfilePage2}/>
+      <Route path='/militaaponte' component={ProfilePage2}/>
       <Route path="/royfguzman" component={ProfilePage1} />
       <Route path='/felipecorredortrellez' component={ProfilePage4}/>
       <Route path='/danielfloresdias' component={ProfilePage5}/>
