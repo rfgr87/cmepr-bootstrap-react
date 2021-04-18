@@ -36,12 +36,12 @@ function MainFeaturedPost(props) {
     <div style={{ 
         position: "absolute",
         backgroundImage: `url(${image2})`,
-        height: "1000px",
+        height: "100%",
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        // backgroundPosition: 'center',
         width: "100%",
-        marginBottom: "-500px",
-        paddingBottom: "-500px",
+        paddingBottom: "-10%",
+        paddingLeft: "-500px",
         margin: 0,
         padding: 0}}>
         <Header
@@ -79,19 +79,21 @@ function MainFeaturedPost(props) {
 </div>
       <div>
       <h5 style={{
+        position: "relative",
       display: "block",
       color: "black", 
       fontFamily: "Menlo",
-      fontSize: "15px",
+      fontSize: "50%",
       fontWeight: "bold",
       marginTop: "2%",
       fontStyle: "normal",
       padding: "70px",
       position: "relative",
-      backgroundColor: "white", //"#00FFFF",
+      backgroundColor: "none", //"#00FFFF",
       backgroundSize: "100px",
       opacity: "1.0",
       marginLeft: "1%",
+      height: "80%",
       width: "80%"
        }}> 
        {"CMEPR es el Colectivo de Música Experimental de Puerto Rico. Es un grupo de músicos y compositores de Puerto Rico organizados con la idea de crear, interpretar e improvisar música experimental y eventos de música experimental en Puerto Rico."}<br></br>

@@ -53,6 +53,29 @@ export default function Components(props) {
         }}
         {...rest}
       />
+      <div
+      style={{ 
+        position: "absolute",
+        backgroundColor: "white",
+        height: "100%",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        width: "100%",
+        marginBottom: "-500px",
+        paddingBottom: "-500px",
+        margin: 0,
+        padding: 0}}>
+        <Header
+        brand="CMEPR"
+        rightLinks={<HeaderLinks />}
+        fixed
+        color="black"
+        changeColorOnScroll={{
+          height: 400,
+          color: "black"
+        }}
+        {...rest}
+      />
       <Parallax className = {{classes2}} image={require("assets/img/decolonial-fotos/foto-pieza-grafica1.jpg")}>
         <div className={classes.container}>
           <GridContainer>
@@ -60,37 +83,13 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 style = {{marginTop: "50px", fontSize: "400%"}} className={classes.title}>CMEPR</h1>
                 <h2 style = {{fontSize: "250%"}}>[Colectivo de Música Experimental de Puerto Rico]</h2>
-                {/* <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
-                </h3> */}
+               
               </div>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-{/* 
-      <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
-        <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
-        <SectionCarousel />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link to={"/login-page"} className={classes.link}>
-            <Button color="primary" size="lg" simple>
-              View Login Page
-            </Button>
-          </Link>
-        </GridItem>
-        <SectionExamples />
-        <SectionDownload />
-      </div>  */}
-     {/* <Footer /> */}
+</div>
     </div>
   );
 }

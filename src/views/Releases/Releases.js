@@ -1,18 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import classNames from "classnames";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Header from "components/Header/Header.js";
-// import image1 from 'assets/img/decolonial-fotos/foto-releases.jpg';
-// import image4 from 'assets/img/decolonial-fotos/foto-aurora.jpg';
-// import image5 from 'assets/img/decolonial-fotos/foto-aurora.jpg';
-// import image6 from 'assets/img/decolonial-fotos/foto-bio.jpg';
-import ReactPlayer from "react-player";
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
 import styles1 from "assets/jss/material-kit-react/views/profilePage1.js";
 import { makeStyles } from "@material-ui/core/styles";
-
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 
 const useStyles1 = makeStyles(styles1);
@@ -70,37 +67,33 @@ function Releases(props) {
        }}> 
        CMEPR Bandcamp<br></br></h5>
        </div>
-       <GridItem  className={classes.navWrapper}>
 
-       <GridContainer justify="center">
-                          <GridItem >
-                          <iframe style = {{
-                            display: "inline-block",
-                            position: "relative",
-                            border: 0, 
-                            width: "300px", 
-                            height: "420px", 
-                            marginTop: "0%",
-                            marginLeft:  "0%"}} 
-                            src="https://bandcamp.com/EmbeddedPlayer/album=495007303/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-27-02-21">CMEPR[27-02-21] by CMEPR - (Colectivo de Música Experimental de Puerto Rico)</a></iframe>
-                          
-    </GridItem>      
+       <Container>
+       <Row>
+         
+        <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=495007303/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-27-02-21">CMEPR[27-02-21] by CMEPR - (Colectivo de Música Experimental de Puerto Rico)</a></iframe>
+         </Col>
+         <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=527915444/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-20-03-21">CMEPR[20-03-21] by CMEPR - Colectivo De Música Experimental De Puerto Rico</a></iframe>
+          </Col>
+        </Row>
+    </Container>
 
-    <GridItem >
-                          <iframe style = {{
-                            display: "inline-block",
-                            position: "relative",
-                            border: 0, 
-                            width: "300px", 
-                            height: "420px", 
-                            marginTop: "0%",
-                            marginLeft:  "0%"}} 
-                            src="https://bandcamp.com/EmbeddedPlayer/album=527915444/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-20-03-21">CMEPR[20-03-21] by CMEPR - Colectivo De Música Experimental De Puerto Rico</a></iframe>
-                          
-    
-    </GridItem>      
-    </GridContainer>
-    </GridItem>
 
    </div>
   
