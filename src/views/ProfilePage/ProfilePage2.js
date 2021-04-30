@@ -22,7 +22,7 @@ import Parallax2 from "components/Parallax/Parallax2.js";
 import image1 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
 
 import image2 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
-import profile from "assets/img/decolonial-fotos/milita-foto.jpg";
+import profile from "assets/img/decolonial-fotos/Gabriel.jpeg";
 import image3 from "assets/img/decolonial-fotos/foto-roy-aurora2.jpg";
 import image4 from "assets/img/decolonial-fotos/foto-roy-fractalidad-criolla.png";
 import image5 from "assets/img/decolonial-fotos/foto-roy-garabato1.png";
@@ -109,7 +109,7 @@ export default function ProfilePage2(props) {
                     <img style = {{marginLeft: "5%", marginTop: "20%", position: "relative", display: "block", width: "50%", height: "50%"}} src={profile} alt="..." />
                   </div>
                   <div >
-                    <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Milita Aponte Andújar</h3>
+                    <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Gabriel Suárez</h3>
                     <div style ={{marginLeft: "5%"}}>
                     <Button styles = {{ marginLeft:  "2%"}} >
                       <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} />
@@ -127,7 +127,9 @@ export default function ProfilePage2(props) {
             </GridContainer>  <br></br>
             <div>
               <p style={{color: "black", marginLeft:  "5%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "15px", fontWeight: "600", width:"75%", backgroundColor: "white"}}>
-              {"Milita Aponte Andújar descubrió el llamado a la música a través de la flauta a los 13 años; en el pueblo de Jayuya con el Prof. Ángel Luis Martínez. Formó parte de diversas bandas. En el 2019 comienza clases con Enith Rivera ex-maestra de la Escuela Libre de Música de Arecibo para audicionar al Conservatorio de Música de Puerto Rico. Entrando con éxito a dicha institución culmina su bachillerato en Música con Concentración en Ejecución en Flauta. Su desempeño como flautista corre diferentes géneros desde clásico, contemporáneo y popular. Ha participado en diferentes agrupaciones dentro de la misma institución como el Conjunto de flautas del CMPR con quienes tuvo la oportunidad de viajar a Las Vegas para participar de la convención de la National Flutist Asociation; además, es integrante de la agrupación de música aleatoria Alea 21 hace cuatro años. Ha tomado clases magistrales con Alejandro Escuer, Kimberlee Goodman, Greg Patillo, Alexis del Palazzo, Ian Clarke, Julisa Felber, entre otres. En la actualidad, es madre de Lluvia y Gohan; gracias a esta nueva etapa ha descubierto su pasión por la educación. Es creadora de la agrupación Mito Etereo donde experimenta sonoridades en la flauta con pedales, performance y eventualmente contempla poder incluir como parte del proyecto la educación del poliarte a través de clases y conferencias."}<br></br><br></br>
+              {"Nacido en San Juan, y natural de Trujillo Alto, comienza sus estudios en el trombón en la Escuela Libre de Música Ernesto Ramos Antonini de San Juan con el profesor William Santana. En abril 2011 participa en el International Music Festival celebrado en el prestigioso Carnegie Hall con la Orquesta Sinfónica de la Escuela Libre de Música."}<br></br><br></br>
+              {"Posee un Bachillerato en Ejecución de Trombón del Conservatorio de Música de Puerto Rico bajo la tutela de los profesores Dr. Luis F. Fred y Ramón L. Serra. Es recipiente del Premio Roberto I. Ferdman que otorga Pro Arte Musical, con el cual continuó y culmina sus estudios de Maestría en Ejecución de Trombón en Cleveland State University bajo la tutela del profesor Shachar Israel, Principal Trombón Interino en The Cleveland Orchestra."}<br></br><br></br>
+              {"Ha tenido la oportunidad de trabajar en clases privadas y clases magistrales con maestros como Jay Friedman, Denson Paul Pollard, Tobias Oft, Craig Mulcahy y el Dr. Nathaniel Brickens. También ha participado en diversas presentaciones con la Orquesta Sinfónica Juvenil de Puerto Rico, la American Wind Symphony Orchestra, la Orquesta Sinfónica de Puerto Rico en el Festival Casals en calidad de músico adicional y con el Borinquen Brass. Actualmente toma clases a distancia en un programa de Estudio Independiente en CSU."}<br></br><br></br>
               </p>
             </div>
 

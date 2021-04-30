@@ -31,8 +31,8 @@ ReactDOM.render(
        <Route path="/audio" component={Releases} />
       <Route path="/nosotros" component={Manifesto} />
       <Route path='/pedrofrancofraticelli' component = {ProfilePage6}/>
-      <Route path='/diegovillasenordecortina' component={ProfilePage3}/>
-      <Route path='/militaaponte' component={ProfilePage2}/>
+      <Route path='/valeriacotto' component={ProfilePage3}/>
+      <Route path='/gabrielsuarez' component={ProfilePage2}/>
       <Route path="/royfguzman" component={ProfilePage1} />
       <Route path='/felipecorredortrellez' component={ProfilePage4}/>
       <Route path='/danielfloresdias' component={ProfilePage5}/>
