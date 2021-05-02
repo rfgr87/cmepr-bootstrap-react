@@ -91,9 +91,19 @@ function Releases(props) {
           marginLeft:  "0%"}} 
           src="https://bandcamp.com/EmbeddedPlayer/album=527915444/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-20-03-21">CMEPR[20-03-21] by CMEPR - Colectivo De Música Experimental De Puerto Rico</a></iframe>
           </Col>
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=3716046106/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-01-05-21">CMEPR[01-05-21] by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
         </Row>
     </Container>
-
 
    </div>
   
