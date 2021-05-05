@@ -1,284 +1,142 @@
-// import React from "react";
-// // nodejs library that concatenates classes
-// import classNames from "classnames";
-// // @material-ui/core components
-// import { makeStyles } from "@material-ui/core/styles";
-// import { Link } from "react-router-dom";
-// import ReactPlayer from "react-player";
+import React from "react";
+// nodejs library that concatenates classes
+import classNames from "classnames";
+// @material-ui/core components
+import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
+// @material-ui/icons
+import Camera from "@material-ui/icons/Camera";
+import Palette from "@material-ui/icons/Palette";
+import Favorite from "@material-ui/icons/Favorite";
+// core components
+import Header from "components/Header/Header.js";
+import Footer from "components/Footer/Footer.js";
+import Button from "components/CustomButtons/Button.js";
+import GridContainer from "components/Grid/GridContainer.js";
+import GridItem from "components/Grid/GridItem.js";
+import HeaderLinks from "components/Header/HeaderLinks.js";
+import NavPills from "components/NavPills/NavPills.js";
+import Parallax2 from "components/Parallax/Parallax2.js";
 
-// // @material-ui/icons
-// import Camera from "@material-ui/icons/Camera";
-// import Palette from "@material-ui/icons/Palette";
-// import Favorite from "@material-ui/icons/Favorite";
-// // core components
-// import Header from "components/Header/Header.js";
-// import Footer from "components/Footer/Footer.js";
-// import Button from "components/CustomButtons/Button.js";
-// import GridContainer from "components/Grid/GridContainer.js";
-// import GridItem from "components/Grid/GridItem.js";
-// import HeaderLinks from "components/Header/HeaderLinks.js";
-// import NavPills from "components/NavPills/NavPills.js";
-// import Parallax3 from "components/Parallax/Parallax3.js";
+import image1 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
 
-// import image1 from "assets/img/decolonial-fotos/foto-felipe1.png";
+import image2 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
+import profile from "assets/img/decolonial-fotos/Elimar.jpg";
+import image3 from "assets/img/decolonial-fotos/foto-roy-aurora2.jpg";
+import image4 from "assets/img/decolonial-fotos/foto-roy-fractalidad-criolla.png";
+import image5 from "assets/img/decolonial-fotos/foto-roy-garabato1.png";
 
-// import image2 from "assets/img/decolonial-fotos/foto-decolonial1.jpg";
-// import profile from "assets/img/decolonial-fotos/foto-felipe7.jpg";
+import studio1 from "assets/img/examples/studio-1.jpg";
+import studio2 from "assets/img/examples/studio-2.jpg";
+import studio3 from "assets/img/examples/studio-3.jpg";
+import studio4 from "assets/img/examples/studio-4.jpg";
+import studio5 from "assets/img/examples/studio-5.jpg";
+import work1 from "assets/img/decolonial-fotos/foto-roy-escardillo.png";
+import work2 from "assets/img/decolonial-fotos/foto-roy-metamusica1.jpg";
+import work3 from "assets/img/decolonial-fotos/foto-roy-metamusica2.jpg";
+import work4 from "assets/img/decolonial-fotos/foto-roy-numeritos.png";
+import work5 from "assets/img/decolonial-fotos/foto-roy-garabato1.png";
+// import work6 from "assets/img/decolonial-fotos/foto-roy-triangulo.jpg";
+import work6 from "assets/img/decolonial-fotos/foto-roy-fractalidad-criolla.png";
+import work7 from "assets/img/decolonial-fotos/foto-roy-kreppy.jpg";
+import work8 from "assets/img/decolonial-fotos/foto-roy-pacto-blanco-criollo.png";
+// import work10 from "assets/img/decolonial-fotos/foto-roy-triangulo.jpg";
+import work9 from "assets/img/decolonial-fotos/foto-roy-analogias-anatopicas.jpg";
+import work10 from "assets/img/decolonial-fotos/foto-roy-primitives.png";
+// import work11 from "assets/img/decolonial-fotos/foto-roy-pacto-blanco-criollo.png";
+import work12 from "assets/img/decolonial-fotos/foto-roy-abecedario.png";
+import work13 from "assets/img/decolonial-fotos/foto-roy-numeritosorquesta.jpg";
 
-// import studio1 from "assets/img/examples/studio-1.jpg";
-// import studio2 from "assets/img/examples/studio-2.jpg";
-// import studio3 from "assets/img/examples/studio-3.jpg";
-// import studio4 from "assets/img/examples/studio-4.jpg";
-// import studio5 from "assets/img/examples/studio-5.jpg";
-// import work1 from "assets/img/examples/olu-eletu.jpg";
-// import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-// import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-// import work4 from "assets/img/examples/mariya-georgieva.jpg";
-// import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import styles1 from "assets/jss/material-kit-react/views/profilePage1.js";
+// import styles2 from "assets/jss/material-kit-react/views/profilePage1.js";
+import styles2 from "assets/jss/material-kit-react/components/parallaxStyle1.js";
 
-// import styles from "assets/jss/material-kit-react/views/profilePage4.js";
-// import styles2 from "assets/jss/material-kit-react/components/parallaxStyle2.js";
+const useStyles1 = makeStyles(styles1);
+const useStyles2 = makeStyles(styles2);
 
-// const useStyles = makeStyles(styles);
-// const useStyles2 = makeStyles(styles2);
+export default function ProfilePage4(props) {
+  const classes = useStyles1();
+  const { ...rest } = props;
+  const imageClasses = classNames(
+    classes.imgRaised,
+    classes.imgFluid
+  );
+  const navImageClasses = classNames(classes.imgGallery);
 
-// export default function ProfilePage4(props) {
-//   const classes = useStyles();
-//   const { ...rest } = props;
-//   const imageClasses = classNames(
-//     classes.imgRaised,
-//     classes.imgFluid
-//   );
-//   const navImageClasses = classNames(classes.imgGallery);
-
-//   const classes2 = useStyles2();
-//   return (
-//     <div style={{ 
-//       position: "absolute",
-//       backgroundImage: `url(${image1})`,
-//       height: "2200px",
-//       backgroundSize: 'cover',
-//       backgroundPosition: 'center',
-//       width: "100%",
-//       margin: 0,
-//       padding: 0}}>
-//        <Header
-//         brand="Decolonial Records"
-//         rightLinks={<HeaderLinks />}
-//         fixed
-//         color="black"
-//         changeColorOnScroll={{
-//           height: 400,
-//           color: "black"
-//         }}
-//         {...rest}
-//       />
-//         <div>  {/* <div style = {{border: "black", borderWidth: "3px", borderStyle: "outset",backgroundColor: "white", width: "75%", marginLeft: "12.5%", marginTop: "15%"}}> */}
-//       <div className={classNames(classes.main, classes.mainRaised)}>
-//         <div>
-//             <GridContainer justify="left" >
-//               <GridItem xs={12} sm={12} md={6}>
-//                 <div className={classes.profile}>
-//                   <div>
-//                     <img src={profile} alt="..." className={imageClasses} />
-//                   </div>
-//                   <div className={classes.name}>
-//                     <h3 className={classes.title}>Felipe Corredor Tréllez</h3><br></br>
-//                     <Button justIcon link className={classes.margin5}>
-//                       <i className={"fab fa-twitter"} />
-//                     </Button>
-//                     <Button justIcon link className={classes.margin5}>
-//                       <i className={"fab fa-instagram"} />
-//                     </Button>
-//                     <Button justIcon link className={classes.margin5}>
-//                       <i className={"fab fa-facebook"} />
-//                     </Button>
-//                   </div>
-//                 </div>
-//               </GridItem>
-//             </GridContainer>
-//             <div className={classes.description}>
-//               <p>
-//                 {"Felipe Corredor-Téllez (1988)"}<br></br><br></br>
-//                 {"Compositor, arreglista y artista sonoro egresado del programa de arte musicales con énfasis en composición y arreglos de la Facultad de Artes ASAB de la Universidad Distrital Francisco José de Caldas en Bogotá y Magister en composición de la Universidad EAFIT en Medellín."}<br></br><br></br> 
-//                 {"Algunas de sus composiciones son una reflexión sobre las múltiples maneras de combinar lenguajes musicales colombianos de tradición popular con estéticas compositivas de tipo académico. Sus obras abarcan formatos solistas, duetos, pequeños ensambles con y sin soporte fijo y ha explorado también el tratamiento sonoro multicanal y la instalación sonora."}<br></br><br></br>
-//                 {"Ha publicado dos artículos académicos que relatan su experiencia como compositor e investigador y abordan con detalle sus obras y una memoria sobre una ponencia de estéticas del análisis musical, tomando como ejemplo también su música."}<br></br><br></br>
-//               </p>
-//             </div>
+  const classes2 = useStyles2();
+  return (
+    <div style={{ 
+      position: "absolute",
+      backgroundImage: `url(${image3})`,
+      height: "2300px",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: "100%",
+      padddingRigth: "0px",
+      paddingBottom: "0px",
+      margin: 0,
+      padding: 0}}>
+       <Header
+        brand="CMEPR"
+        rightLinks={<HeaderLinks />}
+        fixed
+        color="black"
+        changeColorOnScroll={{
+          height: 400,
+          color: "black"
+        }}
+        {...rest}
+      />
+        <div>  {/* <div style = {{border: "black", borderWidth: "3px", borderStyle: "outset",backgroundColor: "white", width: "75%", marginLeft: "12.5%", marginTop: "15%"}}> */}
+      <div style={{ 
+      position: "relative",
+      backgroundColor: "white",
+      // backgroundImage: `url(${image3})`,
+      height: "2300px",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: "100%",
+      padddingRigth: "0px",
+      paddingBottom: "0px",
+      margin: 0,
+      padding: 0}}>
+        <div>
+            <GridContainer justify="left" >
+              <GridItem xs={12} sm={12} md={6}>
+                <div>
+                  <div>
+                    <img style = {{marginLeft: "5%", marginTop: "20%", position: "relative", display: "block", width: "50%", height: "50%"}} src={profile} alt="..." />
+                  </div>
+                  <div >
+                    <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Elimar Alicia Chardón</h3>
+                    <div style ={{marginLeft: "5%"}}>
+                    <Button styles = {{ marginLeft:  "2%"}} >
+                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} />
+                    </Button>
+                    <Button >
+                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} className={"fab fa-instagram"} />
+                    </Button>
+                    <Button >
+                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"}  className={"fab fa-facebook"} />
+                    </Button>
+                    </div>
+                  </div>
+                </div>
+              </GridItem>
+            </GridContainer>  <br></br>
+            <div>
+              <p style={{color: "black", marginLeft:  "5%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "15px", fontWeight: "600", width:"75%", backgroundColor: "white"}}>
+              {"Elimar Alicia, es contrabajista, bajista y compositora, con un pequeño toque de arpista. Es ejecutante de música clásica, romántica y de los siglos XX y XXI. Se ha desarrollado en el poliarte, donde la música se integra con el teatro, la danza y artes plásticas. Ha trabajado con el colectivo de compositores Simbiosis y con la orquesta Arquetipas. Actualmente ejerce como contrabajista, compositora y tallerista en el grupo de música experimental: Alea 21, y como bajista eléctrico en la banda de Melodic Death Metal: Law of Talion."}<br></br><br></br>
+              </p>
+            </div>
             
-//           </div>
-          
-//         </div>
-//       </div>
-//       <div>
-//       <GridContainer justify="center">
-//               <GridItem  className={classes.navWrapper}>
-//                 <NavPills
-//                   alignCenter
-//                   color="black"
-//                   tabs={[
-//                     {
-//                       tabButton: "Música",
-//                       // tabIcon: Camera,
-//                       tabContent: (
-//                         <GridContainer justify="center">
-//                           <GridItem >
-//                           <ReactPlayer  
-//                          style={{
-//                           display: "inline-block",
-//                           position: "relative",
-                       
-//                           border: 0,
-//                           marginTop: "0%",
-//                           marginLeft:  "0%"}} 
-//                           width="80%"
-//                   height="20%"
-//                           url="https://soundcloud.com/felipecorredortellez/paso-en-el-litoral-pacifico"
-//        ></ReactPlayer>
-
-//                       <ReactPlayer   
-//                       style={{
-//                         display: "inline-block",
-//                         position: "relative",
-                       
-//                         border: 0,
-//                         marginTop: "0%",
-//                         marginLeft:  "0%"}} 
-//                         width="80%"
-//                   height="20%"
-//         url="https://soundcloud.com/felipecorredortellez/la-vuelta-andina"
-//        ></ReactPlayer>  
-//                     <ReactPlayer  
-//                     style={{
-//                       display: "inline-block",
-//                       position: "relative",
-                     
-//                       border: 0,
-//                       marginTop: "0%",
-//                       marginLeft:  "0%"}} 
-//                       width="80%"
-//                       height="20%"
-//                     url="https://soundcloud.com/felipecorredortellez/el-tao-joropero-piano"
-//        ></ReactPlayer>  
-//                     <ReactPlayer  
-//                    style={{
-//                     display: "inline-block",
-//                     position: "relative",
-                   
-//                     border: 0,
-//                     marginTop: "0%",
-//                     marginLeft:  "0%"}} 
-//                     width="80%"
-//                     height="20%"
-//         url="https://soundcloud.com/felipecorredortellez/el-tao-joropero-percu-version"
-//        ></ReactPlayer>  
-//                   <ReactPlayer 
-//                   style={{
-//                     display: "inline-block",
-//                     position: "relative",
-                 
-//                     border: 0,
-//                     marginTop: "0%",
-//                     marginLeft:  "0%"}} 
-//                     width="80%"
-//                   height="20%"
-//         url="https://soundcloud.com/felipecorredortellez/lamento-del-ganao"
-//        ></ReactPlayer>   
-//                 <ReactPlayer  
-//                 style={{
-//                   display: "inline-block",
-//                   position: "relative",
-                
-//                   border: 0,
-//                   marginTop: "0%",
-//                   marginLeft:  "0%"}} 
-//                   width="80%"
-//                   height="20%"
-//         url="https://soundcloud.com/felipecorredortellez/morena-de-negros-cabellos"
-//        ></ReactPlayer> 
-//       </GridItem>      
-//       </GridContainer>
-//         )
-//       }
-//                   // {
-//                     //   tabButton: "Partituras",
-//                     //   // tabIcon: Palette,
-//                     //   tabContent: (
-//                     //     <GridContainer justify="center">
-//                     //       <GridItem xs={12} sm={12} md={4}>
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work1}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work2}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work3}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //       </GridItem>
-//                     //       <GridItem xs={12} sm={12} md={4}>
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work4}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work5}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //       </GridItem>
-//                     //     </GridContainer>
-//                     //   )
-//                     // },
-//                     // {
-//                     //   tabButton: "Textos",
-//                     //   tabContent: (
-//                     //     <GridContainer justify="center">
-//                     //       <GridItem xs={12} sm={12} md={4}>
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work4}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={studio3}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //       </GridItem>
-//                     //       <GridItem xs={12} sm={12} md={4}>
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work2}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={work1}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //         <img
-//                     //           alt="..."
-//                     //           src={studio1}
-//                     //           className={navImageClasses}
-//                     //         />
-//                     //       </GridItem>
-//                     //     </GridContainer>
-//                     //   )
-//                     // }
-//                   ]}
-//                 />
-//               </GridItem>
-//             </GridContainer>
-//             </div>
-//     </div>
-//   );
-// }
+            </div>
+            
+          </div>
+        </div>
+        
+            
+    </div>
+  );
+}

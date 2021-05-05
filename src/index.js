@@ -30,12 +30,13 @@ ReactDOM.render(
     <Switch>
        <Route path="/audio" component={Releases} />
       <Route path="/nosotros" component={Manifesto} />
-      <Route path='/pedrofrancofraticelli' component = {ProfilePage6}/>
       <Route path='/valeriacotto' component={ProfilePage3}/>
       <Route path='/gabrielsuarez' component={ProfilePage2}/>
       <Route path="/royfguzman" component={ProfilePage1} />
-      <Route path='/felipecorredortrellez' component={ProfilePage4}/>
-      <Route path='/danielfloresdias' component={ProfilePage5}/>
+      <Route path='/elimaralicia' component={ProfilePage4}/>
+      <Route path='/kemuelruiz' component={ProfilePage5}/>
+      <Route path='/randyroman' component={ProfilePage6}/>
+
       <Route path="/login-page" component={LoginPage} />
       <Route path="/" component={Components} />
     
