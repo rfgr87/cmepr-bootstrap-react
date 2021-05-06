@@ -22,7 +22,7 @@ import Parallax2 from "components/Parallax/Parallax2.js";
 import image1 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
 
 import image2 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
-import profile from "assets/img/decolonial-fotos/Elimar.jpg";
+import profile from "assets/img/decolonial-fotos/Chrystal.jpg";
 import image3 from "assets/img/decolonial-fotos/foto-roy-aurora2.jpg";
 import image4 from "assets/img/decolonial-fotos/foto-roy-fractalidad-criolla.png";
 import image5 from "assets/img/decolonial-fotos/foto-roy-garabato1.png";
@@ -55,7 +55,7 @@ import styles2 from "assets/jss/material-kit-react/components/parallaxStyle1.js"
 const useStyles1 = makeStyles(styles1);
 const useStyles2 = makeStyles(styles2);
 
-export default function ProfilePage4(props) {
+export default function ProfilePage8(props) {
   const classes = useStyles1();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -109,7 +109,7 @@ export default function ProfilePage4(props) {
                     <img style = {{marginLeft: "5%", marginTop: "20%", position: "relative", display: "block", width: "50%", height: "50%"}} src={profile} alt="..." />
                   </div>
                   <div >
-                    <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Elimar Alicia Chardón</h3>
+                    <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Juan Luis O'Halloran</h3>
                     
                   </div>
                 </div>
@@ -117,7 +117,7 @@ export default function ProfilePage4(props) {
             </GridContainer>  <br></br>
             <div>
               <p style={{color: "black", marginLeft:  "5%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "15px", fontWeight: "600", width:"75%", backgroundColor: "white"}}>
-              {"Elimar Alicia, es contrabajista, bajista y compositora, con un pequeño toque de arpista. Es ejecutante de música clásica, romántica y de los siglos XX y XXI. Se ha desarrollado en el poliarte, donde la música se integra con el teatro, la danza y artes plásticas. Ha trabajado con el colectivo de compositores Simbiosis y con la orquesta Arquetipas. Actualmente ejerce como contrabajista, compositora y tallerista en el grupo de música experimental: Alea 21, y como bajista eléctrico en la banda de Melodic Death Metal: Law of Talion."}<br></br><br></br>
+              {"Nácida en New York, y natural de Caguas. Comienza sus estudios en la guitarra en tercer grado bajo la tútela de Tanya Valcarzel. Aprendiendo varios instrumentos tales como el cuatro, la mandolina y el piano. En el año 2007 comienza en la escuela Libre de Música de Caguas y comienza a estudiar viola en el 2008 con el profesor Francisco Paquitín Figueroa. Participó de varías orquestas tales como: la Orquesta Avanzada, la Orquesta Sinfónica de la Libre de Música de Caguas, Orquesta Sinfónica Juvenil de Puerto Rico, Oruqesta sistema 100x35 y de el programa Experiencia Sinfónica junto a la Orquesta Sinfónica de Puerto Rico por 3 años consécutivos. En el año 2013 es aceptada al programa de bachillerato en Ejecución de Viola en el Conservatorio de Música de Puerto Rico. Ha participado de clases magristrales junto a Christina Coldberg, Joel Pagán, Jaime Amador, Claudia Lasseref Mironoff entre otros. Ha tocado con artistas como Millo Torres, Tommy Torres, Willie Colón, Stevan Micheo, Francisco Paz y Adlan Cruz. Actualmente se encuentra laborando como maestra junto al programa 100x35 del Conservatorio y la academia The Music Room en Caguas y es miembro de la Orquesta Filármocia Arturo Somohano."}<br></br><br></br>
               </p>
             </div>
             

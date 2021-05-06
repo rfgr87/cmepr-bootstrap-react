@@ -55,7 +55,7 @@ import styles2 from "assets/jss/material-kit-react/components/parallaxStyle1.js"
 const useStyles1 = makeStyles(styles1);
 const useStyles2 = makeStyles(styles2);
 
-export default function ProfilePage4(props) {
+export default function ProfilePage5(props) {
   const classes = useStyles1();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -110,17 +110,7 @@ export default function ProfilePage4(props) {
                   </div>
                   <div >
                     <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Kemuel Ruiz</h3>
-                    <div style ={{marginLeft: "5%"}}>
-                    <Button styles = {{ marginLeft:  "2%"}} >
-                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} />
-                    </Button>
-                    <Button >
-                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} className={"fab fa-instagram"} />
-                    </Button>
-                    <Button >
-                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"}  className={"fab fa-facebook"} />
-                    </Button>
-                    </div>
+                   
                   </div>
                 </div>
               </GridItem>

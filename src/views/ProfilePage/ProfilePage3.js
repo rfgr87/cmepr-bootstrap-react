@@ -110,17 +110,7 @@ export default function ProfilePage3(props) {
                   </div>
                   <div >
                     <h3 style={{color: "black", marginLeft:  "5%", marginTop: "2%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "30px", fontWeight: "600", width:"50%", backgroundColor: "white"}}>Valeria Cotto</h3>
-                    <div style ={{marginLeft: "5%"}}>
-                    <Button styles = {{ marginLeft:  "2%"}} >
-                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} />
-                    </Button>
-                    <Button >
-                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"} className={"fab fa-instagram"} />
-                    </Button>
-                    <Button >
-                      <i style = {{display: "block", color: "black",marginLeft:  "5%"}} className={"fab fa-twitter"}  className={"fab fa-facebook"} />
-                    </Button>
-                    </div>
+                   
                   </div>
                 </div>
               </GridItem>
