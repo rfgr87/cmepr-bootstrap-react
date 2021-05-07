@@ -125,7 +125,7 @@ export default function ProfilePage1(props) {
               {" "}
               </p>
             </div>
-
+{/* 
           <div style={{ 
                           display: "inline-block",
 
@@ -158,9 +158,9 @@ export default function ProfilePage1(props) {
             marginLeft:  "2%",
             padding: 0}}></div>
               
-            
+            */}
             </div>
-            
+             
           </div>
         </div>
       

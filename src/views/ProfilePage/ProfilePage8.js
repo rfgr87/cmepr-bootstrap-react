@@ -22,7 +22,7 @@ import Parallax2 from "components/Parallax/Parallax2.js";
 import image1 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
 
 import image2 from "assets/img/decolonial-fotos/foto-roy-pieza-roy1.jpg";
-import profile from "assets/img/decolonial-fotos/Chrystal.jpg";
+import profile from "assets/img/decolonial-fotos/Juan.jpeg";
 import image3 from "assets/img/decolonial-fotos/foto-roy-aurora2.jpg";
 import image4 from "assets/img/decolonial-fotos/foto-roy-fractalidad-criolla.png";
 import image5 from "assets/img/decolonial-fotos/foto-roy-garabato1.png";
@@ -117,7 +117,7 @@ export default function ProfilePage8(props) {
             </GridContainer>  <br></br>
             <div>
               <p style={{color: "black", marginLeft:  "5%", dislay: "block", position: "relative", fontFamily: 'Menlo', fontSize: "15px", fontWeight: "600", width:"75%", backgroundColor: "white"}}>
-              {"Nácida en New York, y natural de Caguas. Comienza sus estudios en la guitarra en tercer grado bajo la tútela de Tanya Valcarzel. Aprendiendo varios instrumentos tales como el cuatro, la mandolina y el piano. En el año 2007 comienza en la escuela Libre de Música de Caguas y comienza a estudiar viola en el 2008 con el profesor Francisco Paquitín Figueroa. Participó de varías orquestas tales como: la Orquesta Avanzada, la Orquesta Sinfónica de la Libre de Música de Caguas, Orquesta Sinfónica Juvenil de Puerto Rico, Oruqesta sistema 100x35 y de el programa Experiencia Sinfónica junto a la Orquesta Sinfónica de Puerto Rico por 3 años consécutivos. En el año 2013 es aceptada al programa de bachillerato en Ejecución de Viola en el Conservatorio de Música de Puerto Rico. Ha participado de clases magristrales junto a Christina Coldberg, Joel Pagán, Jaime Amador, Claudia Lasseref Mironoff entre otros. Ha tocado con artistas como Millo Torres, Tommy Torres, Willie Colón, Stevan Micheo, Francisco Paz y Adlan Cruz. Actualmente se encuentra laborando como maestra junto al programa 100x35 del Conservatorio y la academia The Music Room en Caguas y es miembro de la Orquesta Filármocia Arturo Somohano."}<br></br><br></br>
+              {"..."}<br></br><br></br>
               </p>
             </div>
             

@@ -19,6 +19,7 @@ import ProfilePage4 from "views/ProfilePage/ProfilePage4.js";
 import ProfilePage5 from "views/ProfilePage/ProfilePage5.js";
 import ProfilePage6 from "views/ProfilePage/ProfilePage6.js";
 import ProfilePage7 from "views/ProfilePage/ProfilePage7.js";
+import ProfilePage8 from "views/ProfilePage/ProfilePage8.js";
 
 
 import LoginPage from "views/LoginPage/LoginPage.js";
@@ -39,6 +40,8 @@ ReactDOM.render(
       <Route path='/kemuelruiz' component={ProfilePage5}/>
       <Route path='/randyroman' component={ProfilePage6}/>
       <Route path='/chrystalvillalongo' component={ProfilePage7}/>
+      <Route path='/juanohalloran' component={ProfilePage8}/>
+
 
 
       <Route path="/login-page" component={LoginPage} />
