@@ -102,6 +102,87 @@ function Releases(props) {
           marginLeft:  "0%"}} 
           src="https://bandcamp.com/EmbeddedPlayer/album=3716046106/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-01-05-21">CMEPR[01-05-21] by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
           </Col>
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=233536323/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-22-05-21-gabriel-su-rez-roy-f-guzm-n-iv">CMEPR[22-05-21] - Gabriel Suárez, Roy F Guzmán IV by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>          
+          </Col>
+
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=2097111904/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-22-05-21-gabriel-su-rez-roy-f-guzm-n-ii">CMEPR[22-05-21] - Gabriel Suárez, Roy F Guzmán II by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=1128345285/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-22-05-21-gabriel-suarez-roy-f-guzm-n-iii">CMEPR[22-05-21] - Gabriel Suarez, Roy F Guzmán III by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=2496287290/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-22-05-21-gabriel-su-rez-roy-f-guzm-n-i">CMEPR[22-05-21]- Gabriel Suárez, Roy F Guzmán I by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=2166662922/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-22-05-21-gabriel-su-rez-roy-f-guzm-n">CMEPR[22-05-21] - Gabriel Suárez, Roy F Guzmán by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=3728029888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-05-06-21-concierto-en-cfdac">CMEPR[05-06-21] Concierto en CFDAC by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=3728029888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-05-06-21-concierto-en-cfdac">CMEPR[05-06-21] Concierto en CFDAC by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
         </Row>
     </Container>
 
