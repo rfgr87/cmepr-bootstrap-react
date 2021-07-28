@@ -207,6 +207,18 @@ function Releases(props) {
           </Col>
 
 
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=883996748/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/concierto-del-taller-m-sica-a-lo-pobre-con-el-cmepr">Concierto del Taller &quot;Música A Lo Pobre&quot; con el CMEPR by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+
 
         </Row>
     </Container>
