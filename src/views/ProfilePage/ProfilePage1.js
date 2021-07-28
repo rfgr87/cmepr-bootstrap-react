@@ -72,10 +72,10 @@ export default function ProfilePage1(props) {
         backgroundColor: "white",
         height: "540%",
         backgroundSize: 'cover',
-        // backgroundPosition: 'center',
+        backgroundPosition: 'center',
         width: "100%",
         paddingBottom: "-10%",
-        paddingLeft: "-500px",
+        paddingLeft: "0px",
         margin: 0,
         padding: 0}}>
        <Header
