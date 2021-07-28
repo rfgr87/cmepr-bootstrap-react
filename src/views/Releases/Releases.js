@@ -183,6 +183,31 @@ function Releases(props) {
           src="https://bandcamp.com/EmbeddedPlayer/album=3728029888/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-05-06-21-concierto-en-cfdac">CMEPR[05-06-21] Concierto en CFDAC by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
           </Col>
 
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=191984405/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-en-vivo-en-urbe-apie-03-07-21">CMEPR En Vivo En Urbe Apie [03-07-21] by CMEPR - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+
+          <Col><iframe style = {{
+          display: "inline-block",
+          position: "relative",
+          border: 0, 
+          width: "300px", 
+          height: "420px", 
+          marginTop: "0%",
+          marginLeft:  "0%"}} 
+          src="https://bandcamp.com/EmbeddedPlayer/album=1390847616/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/cmepr-24-07-21">CMEPR[24-07-21] by CMPER - Colectivo de Música Experimental de Puerto Rico</a></iframe>
+          </Col>
+
+
+
         </Row>
     </Container>
 
