@@ -83,7 +83,7 @@ function MainFeaturedPost(props) {
       display: "block",
       color: "black", 
       fontFamily: "Menlo",
-      fontSize: "50%",
+      fontSize: "100%",
       fontWeight: "bold",
       marginTop: "2%",
       fontStyle: "normal",
