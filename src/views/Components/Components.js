@@ -46,11 +46,8 @@ export default function Components(props) {
         brand="CMEPR"
         rightLinks={<HeaderLinks />}
         fixed
-        color="black"
-        changeColorOnScroll={{
-          height: 400,
-          color: "black"
-        }}
+        color="blue"
+        
         {...rest}
       />
       <div
@@ -69,11 +66,8 @@ export default function Components(props) {
         brand="CMEPR"
         rightLinks={<HeaderLinks />}
         fixed
-        color="black"
-        changeColorOnScroll={{
-          height: 400,
-          color: "black"
-        }}
+        color="blue"
+   
         {...rest}
       />
       <Parallax className = {{classes2}} image={require("assets/img/decolonial-fotos/foto-pieza-grafica1.jpg")}>
@@ -81,8 +75,8 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 style = {{marginTop: "50px", fontSize: "400%"}} className={classes.title}>CMEPR</h1>
-                <h2 style = {{fontSize: "250%"}}>[Colectivo de Música Experimental de Puerto Rico]</h2>
+                <h1 style = {{marginTop: "50px", fontSize: "400%", color: "cyan"}} className={classes.title}>CMEPR</h1>
+                <h2 style = {{fontSize: "250%", color: "cyan"}}>[Colectivo de Música Experimental de Puerto Rico]</h2>
                
               </div>
             </GridItem>
