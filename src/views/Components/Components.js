@@ -76,7 +76,7 @@ export default function Components(props) {
             <GridItem>
               <div className={classes.brand}>
                 <h1 style = {{marginTop: "50px", fontSize: "400%", color: "cyan"}} className={classes.title}>CMEPR</h1>
-                <h2 style = {{fontSize: "250%", color: "cyan"}}>[Colectivo de Música Experimental de Puerto Rico]</h2>
+                <h2 style = {{fontSize: "250%", color: "black"}}>[Colectivo de Música Experimental de Puerto Rico]</h2>
                
               </div>
             </GridItem>
